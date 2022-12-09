@@ -15,10 +15,12 @@
 
 body {
     background-color: var(--background);
-}
-
-main h2 {
-    margin-bottom: 30px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -26,12 +28,14 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100vw;
-    height: 100vh;
+}
+
+main h2 {
+  margin-bottom: 10px;
 }
 
 main p {
-    width: 400px;
+    width: 380px;
     height: 45px;
     padding: 15px;
     background: #FFFFFF;
@@ -55,7 +59,7 @@ form div label {
 }
 
 form div label input {
-    width: 400px;
+    width: 380px;
     height: 45px;
     border: 2px solid #FFFFFF;
     border-radius: 5px;
@@ -92,7 +96,7 @@ footer {
 }
 
 footer span {
-    width: 440px;
+    width: 400px;
     height: 2px;
     background-color: #FFFFFF;
 }
